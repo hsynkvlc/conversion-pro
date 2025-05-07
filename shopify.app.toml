@@ -1,0 +1,17 @@
+client_id = "35933b2ad1c629b27a2a606a428943c6"
+name = "conversiontrackerpro"
+handle = "conversiontrackerpro"
+application_url = "https://scholar-census-wood-jeff.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+scopes = "write_products,read_products,write_orders,read_orders"
+
+[auth]
+redirect_urls = [ "http://localhost:5173/auth/callback" ]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false 
